@@ -1,18 +1,11 @@
 # Woodpecker Plugin - Is It Up Yet?
 
+Woodpecker CI plugin to check for a service to start listening on a specified host and port.
 
-**Usage:**
+## Documentation
 
-```yaml
-steps:
-  - name: server
-    detach: true
-    image: ...
+Docs can be found in [docs.md](docs.md).
 
-  - name: wait_for_server
-    image: ghcr.io/dvjn/woodpecker-is-it-up-yet-plugin
-    settings:
-      host: server
-      port: 8080
-```
+## License
 
+The source code is licensed under the [MIT License](LICENSE).
