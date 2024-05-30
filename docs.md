@@ -1,5 +1,5 @@
 ---
-name: Is It Up Yet?
+name: Is It Up Yet
 description: Plugin to check for a service to start listening on a specified host and port.
 
 author: dvjn
